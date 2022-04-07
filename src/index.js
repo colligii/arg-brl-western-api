@@ -80,7 +80,7 @@ io.on("connection", (socket) => {
 
 
 
-server.listen(5000, () => {
-    console.log(`server is running at port ${5000}`)
+server.listen(3000, () => {
+    console.log(`server is running at port ${3000}`)
     registerMoney() 
 })
